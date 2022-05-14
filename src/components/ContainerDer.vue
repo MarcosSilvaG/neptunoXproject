@@ -3,7 +3,6 @@
     <!--Contenedor completo -->
     <div class="containerinfo1">
       <!---Contenedor de la informacion izq, primer recuadro-->
-      <!--<br><br><br><br><br><br>-->
       <h1>Fight Virus<br />With Vaccines<br /></h1>
 
       <p>
@@ -15,9 +14,9 @@
     <!--Termina contenedor infocontainer-->
 
     <div class="imgcontainer-enfermera">
-      <!--Contenedor de la img de enfermera-->
+      <!--Contenedor de la img -->
     </div>
-    <!--Termina contenedor img enfermera-->
+    <!--Termina contenedor img -->
   </div>
   <!--Termina infocontainer-->
 </template>
@@ -42,14 +41,13 @@ export default {
 }
 
 .infocontainer {
-  /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
+  /*Contenedor que ocupa todo el ancho de pantalla para imagen*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   align-items: center;
   background-color: aqua;
 }
 .containerinfo1 {
-  /*Contenedor de info*/
   position: relative;
   align-items: center;
   float: left;
@@ -64,7 +62,6 @@ export default {
 }
 
 .imgcontainer-enfermera {
-  /*Contenedor de enfermera*/
   position: relative;
   float: right;
   width: 49%;
