@@ -3,12 +3,10 @@
     <!--Contenedor completo -->
     <div class="containerinfo1">
       <!---Contenedor de la informacion izq, primer recuadro-->
-      <h1>Fight Virus<br />With Vaccines<br /></h1>
+      <h1>{{ titulo }}</h1>
 
       <p>
-        Let's stop this pandemic by killing the virus<br />
-        with a vaccine, don't let yourself and your<br />
-        family get infected
+        {{ msg }}
       </p>
     </div>
     <!--Termina contenedor infocontainer-->
@@ -26,6 +24,7 @@
 export default {
   name: "ContainerDer",
   props: {
+    titulo: String,
     msg: String,
   },
 };
@@ -39,6 +38,21 @@ export default {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(31, 62, 114);
+}
+
+h1 {
+  /*Afecta a todos los titulos h1*/
+  font-size: 4.5vw;
+  font-weight: bold;
+  vertical-align: middle;
+  color: rgb(31, 62, 114);
+}
+
+p {
+  /*afecta a todos los parrafos P*/
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: rgb(109, 123, 147);
 }
 
 .infocontainer {
