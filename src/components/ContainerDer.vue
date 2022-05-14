@@ -14,7 +14,8 @@
     </div>
     <!--Termina contenedor infocontainer-->
 
-    <div class="imgcontainer-enfermera">
+    <div class="imgcontainer">
+      <img src="../assets/waterpollution.jpg" class="img" />
       <!--Contenedor de la img de enfermera-->
     </div>
     <!--Termina contenedor img enfermera-->
@@ -53,7 +54,7 @@ export default {
   position: relative;
   align-items: center;
   float: left;
-  height: 65.9vw;
+  height: 30vw;
   width: 51%;
   overflow: hidden;
   background-color: rgb(255, 0, 0);
@@ -63,17 +64,17 @@ export default {
   width: 3%;
 }
 
-.imgcontainer-enfermera {
-  /*Contenedor de enfermera*/
+.imgcontainer {
+  /*Contenedor de imagen*/
   position: relative;
   float: right;
   width: 49%;
-  height: 65.9vw;
+  height: 30vw;
   overflow: hidden;
   background-color: rgb(111, 0, 255);
   transform: translate(0%, 0%);
 }
-.imgcontainer-enfermera img {
+.imgcontainer img {
   width: 100%;
   height: 100%;
 }
