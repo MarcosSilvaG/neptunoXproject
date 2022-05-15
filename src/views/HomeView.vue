@@ -9,6 +9,7 @@
       titulo="Trafico ilegal de especies marinas"
       descripcion="De acuerdo a diferentes Organizaciones No Gubernamentales se calcula que la delincuencia organizada obtiene entre 10 mil y 20 mil millones de dólares anuales por el tráfico global de biodiversidad terrestre y se desconoce a cuánto asciende la depredación de las especies marinas, la codicia de una actividad ilegal que crece y empeora."
     />
+    <ContainerModel />
     <HelloWorld msg="Hola soy helloworld" />
   </div>
 </template>
@@ -18,6 +19,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import ContainerDer from "../components/ContainerDer.vue";
 import ContainerIzq from "../components/ContainerIzq.vue";
+import ContainerModel from "../components/ContainerModel.vue";
 
 export default {
   name: "HomeView",
@@ -25,6 +27,7 @@ export default {
     HelloWorld,
     ContainerDer,
     ContainerIzq,
+    ContainerModel,
   },
 };
 </script>
