@@ -13,6 +13,10 @@
       titulo="Neptuno X Project"
       descripcion="Mediante las nuevas tecnologias, hemos diseñado un robot que funcionara mediante una aplicacion movil que se encargue de recolectar el plastico que se encuentra en el mar"
     />
+    <RecycleContainer
+      titulo="De basura a un beneficio"
+      descripcion="Todo el plastico recolectado puede tener un segundo fin gracias a las tecnologias con las que contamos y pueden ser de buen provecho para ayudar al ecosistema."
+    />
     <HelloWorld msg="Hola soy helloworld" />
   </div>
 </template>
@@ -23,6 +27,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import ContainerDer from "../components/ContainerDer.vue";
 import ContainerIzq from "../components/ContainerIzq.vue";
 import ContainerModel from "../components/ContainerModel.vue";
+import RecycleContainer from "../components/RecycleContainer.vue";
 
 export default {
   name: "HomeView",
@@ -31,6 +36,7 @@ export default {
     ContainerDer,
     ContainerIzq,
     ContainerModel,
+    RecycleContainer,
   },
 };
 </script>
