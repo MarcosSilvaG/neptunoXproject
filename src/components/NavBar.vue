@@ -57,6 +57,7 @@ export default {
   z-index: 2000;
 }
 .nav {
+  max-width: 1024px;
   height: 3rem;
   display: flex;
   justify-content: space-between;
