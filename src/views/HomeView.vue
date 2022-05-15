@@ -22,7 +22,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import ContainerDer from "../components/ContainerDer.vue";
 import ContainerIzq from "../components/ContainerIzq.vue";
 import ContainerModel from "../components/ContainerModel.vue";
@@ -31,7 +30,6 @@ import RecycleContainer from "../components/RecycleContainer.vue";
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
     ContainerDer,
     ContainerIzq,
     ContainerModel,
@@ -42,5 +40,6 @@ export default {
 <style scoped>
 .home {
   padding: 15% 0% 0% 0%;
+  margin-top: 48px;
 }
 </style>
