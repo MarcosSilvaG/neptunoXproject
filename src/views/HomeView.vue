@@ -19,7 +19,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import ContainerDer from "../components/ContainerDer.vue";
 import ContainerIzq from "../components/ContainerIzq.vue";
 import ContainerModel from "../components/ContainerModel.vue";
@@ -27,7 +26,6 @@ import ContainerModel from "../components/ContainerModel.vue";
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
     ContainerDer,
     ContainerIzq,
     ContainerModel,
