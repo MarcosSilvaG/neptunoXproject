@@ -1,7 +1,7 @@
 <template>
   <div class="infocontainer3">
     <!--Apartado donde sale la informacion "prepare before vaccine"-->
-    <img src="../assets/turtlehunt.jpg" />
+    <img src="../assets/turtlehunt.png" />
     <div class="container">
       <h1>{{ titulo }}</h1>
       <p>
@@ -30,21 +30,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(31, 62, 114);
-}
-h1 {
-  /*Afecta a todos los titulos h1*/
-  font-size: 4.5vw;
-  font-weight: bold;
-  vertical-align: middle;
-  color: rgb(31, 62, 114);
-}
-
-p {
-  /*afecta a todos los parrafos P*/
-  font-size: 1.5vw;
-  font-weight: 500;
-  color: rgb(109, 123, 147);
 }
 
 .infocontainer3 {
@@ -52,11 +37,12 @@ p {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   /*background-color: rgb(107, 255, 38);*/
-  padding: 5% 0% 5% 0%; /*arriba, derecha,abajo,izq*/
 }
 .infocontainer3 img {
   width: 44.6%;
   height: 30vw;
+  border-radius: 20vw 100vw;
+  padding: 5% 5%;
 }
 .infocontainer3 .container {
   position: relative;

@@ -17,8 +17,8 @@ export default {
 <style>
 :root {
   --text-color: #3232;
-  --text-color-alt: #5dade2;
-  --bg-color: #d0d3d4;
+  --text-color-alt: #214258;
+  --bg-color: rgba(255, 255, 255, 0.459);
 }
 
 * {

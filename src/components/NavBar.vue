@@ -6,22 +6,12 @@
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#" class="nav-link"
-              ><i class="bx bxs-home nav-icon"></i>Home</a
+              ><i class="bx bxs-home nav-icon titulo"></i>Home</a
             >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"
-              ><i class="bx bxs-award nav-icon"></i>Modelo3D</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"
-              ><i class="bx bxs-check-shield nav-icon"></i>Solución</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"
-              ><i class="bx bx-conversation nav-icon"></i>Contacto</a
+            <a href="#infocontainer2" class="nav-link"
+              ><i class="bx bxs-award nav-icon titulo"></i>Modelo3D</a
             >
           </li>
         </ul>
@@ -46,6 +36,9 @@ export default {
 </script>
 
 <style>
+.titulo {
+  -webkit-text-stroke: 0.05vw white;
+}
 .header {
   position: fixed;
   width: 100%;
@@ -69,6 +62,7 @@ export default {
   font-size: 2rem;
   font-weight: 1000;
   color: var(--text-color-alt);
+  -webkit-text-stroke: 0.05vw white;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="infocontainer2">
+  <div class="recyclecontainer">
     <!--Apartado donde sale la informacion "Why should i vaccine?-->
     <div class="container-info">
       <h1>{{ titulo }}</h1>
@@ -48,23 +48,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(31, 62, 114);
 }
 
-h1 {
-  /*Afecta a todos los titulos h1*/
-  font-size: 4.5vw;
-  font-weight: bold;
-  vertical-align: middle;
-  color: rgb(31, 62, 114);
-}
-
-p {
-  /*afecta a todos los parrafos P*/
-  font-size: 1.5vw;
-  font-weight: 500;
-  color: rgb(109, 123, 147);
-}
 .minicontainer {
   position: relative;
   align-items: center;
@@ -93,7 +78,7 @@ p {
   top: 1vw;
   color: rgb(109, 123, 147);
 }
-.infocontainer2 {
+.recyclecontainer {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

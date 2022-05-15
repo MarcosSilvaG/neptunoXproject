@@ -37,9 +37,23 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
 .home {
   padding: 15% 0% 0% 0%;
-  margin-top: 48px;
+}
+h1 {
+  /*Afecta a todos los titulos h1*/
+  -webkit-text-stroke: 2px white;
+  font-size: 4.5vw;
+  font-weight: bold;
+  vertical-align: middle;
+  color: rgb(16, 37, 73);
+}
+
+p {
+  /*afecta a todos los parrafos P*/
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
 }
 </style>

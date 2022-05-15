@@ -9,7 +9,9 @@
         {{ descripcion }}
       </p>
     </div>
-    <div class="container-info"></div>
+    <div class="container-info">
+      <img src="../assets/neptunox2.png" class="img" />
+    </div>
   </div>
   <!--Termina why should i vaccines-->
 </template>
@@ -31,22 +33,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(31, 62, 114);
-}
-
-h1 {
-  /*Afecta a todos los titulos h1*/
-  font-size: 4.5vw;
-  font-weight: bold;
-  vertical-align: middle;
-  color: rgb(31, 62, 114);
-}
-
-p {
-  /*afecta a todos los parrafos P*/
-  font-size: 1.5vw;
-  font-weight: 500;
-  color: rgb(109, 123, 147);
 }
 
 .infocontainer2 {

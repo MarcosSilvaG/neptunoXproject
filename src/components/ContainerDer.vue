@@ -12,7 +12,7 @@
     <!--Termina contenedor infocontainer-->
 
     <div class="imgcontainer">
-      <img src="../assets/waterpollution.jpg" class="img" />
+      <img src="../assets/waterpollution.png" class="img" />
       <!--Contenedor de la img de enfermera-->
     </div>
     <!--Termina contenedor img -->
@@ -37,22 +37,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(31, 62, 114);
-}
-
-h1 {
-  /*Afecta a todos los titulos h1*/
-  font-size: 4.5vw;
-  font-weight: bold;
-  vertical-align: middle;
-  color: rgb(31, 62, 114);
-}
-
-p {
-  /*afecta a todos los parrafos P*/
-  font-size: 1.5vw;
-  font-weight: 500;
-  color: rgb(109, 123, 147);
 }
 
 .infocontainer {
@@ -83,11 +67,15 @@ p {
   width: 49%;
   height: 30vw;
   overflow: hidden;
+  padding: 5% 5%;
   /*background-color: rgb(111, 0, 255);*/
+
   transform: translate(0%, 0%);
 }
 .imgcontainer img {
   width: 100%;
   height: 100%;
+  border-radius: 100vw 20vw;
+  padding: 5% 5%;
 }
 </style>
