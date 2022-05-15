@@ -53,14 +53,14 @@ p {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
   padding: 5% 9.4% 5% 9.4%; /*arriba, derecha,abajo,izq*/
 }
 .container-info {
   position: relative;
   width: 100%;
   overflow: hidden;
-  background-color: #acc454;
+  /*background-color: #acc454;*/
   padding: 2% 0%;
 }
 </style>

@@ -69,10 +69,6 @@ p {
   height: 30vw;
   width: 51%;
   overflow: hidden;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background: url("../assets/background/sea3.png");
-  background-size: cover;
   /*background-color: rgb(255, 0, 0);*/
   padding: 2.5% 8.5%;
 }

@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: url("./assets/background/fondoweb.png");
+  background-size: cover;
 }
 
 nav {

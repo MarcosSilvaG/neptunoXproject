@@ -52,7 +52,7 @@ p {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   /*background-color: rgb(107, 255, 38);*/
-  padding: 5% 0% 0% 0%; /*arriba, derecha,abajo,izq*/
+  padding: 5% 0% 5% 0%; /*arriba, derecha,abajo,izq*/
 }
 .infocontainer3 img {
   width: 44.6%;
@@ -66,10 +66,6 @@ p {
   height: 30vw;
   width: 55.4%;
   overflow: hidden;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background: url("../assets/background/sea2.png");
-  background-size: cover;
   /*background-color: rgba(255, 0, 0, 0.5);*/
 }
 </style>

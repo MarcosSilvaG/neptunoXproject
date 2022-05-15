@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
     <ContainerDer
       titulo="Mas del 90% es plastico"
       msg="El 90% de la basura que flota en el mar es material plasticos, alrededor de 13 millones de toneladas de vertidas en los océanos cada año, esto afecta a especies marinas, rios y lagos."
@@ -40,3 +39,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.home {
+  padding: 15% 0% 0% 0%;
+}
+</style>
