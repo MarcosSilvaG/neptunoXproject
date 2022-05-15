@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
     <ContainerDer
       titulo="Mas del 90% es plastico"
       msg="El 90% de la basura que flota en el mar es material plasticos, alrededor de 13 millones de toneladas de vertidas en los océanos cada año, esto afecta a especies marinas, rios y lagos."
@@ -19,7 +18,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import ContainerDer from "../components/ContainerDer.vue";
 import ContainerIzq from "../components/ContainerIzq.vue";
 import ContainerModel from "../components/ContainerModel.vue";
@@ -27,10 +25,14 @@ import ContainerModel from "../components/ContainerModel.vue";
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
     ContainerDer,
     ContainerIzq,
     ContainerModel,
   },
 };
 </script>
+<style scoped>
+.home {
+  margin-top: 48px;
+}
+</style>
