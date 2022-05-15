@@ -51,8 +51,8 @@ p {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  /*background-color: rgb(107, 255, 38);*/
-  padding: 5% 0% 5% 0%; /*arriba, derecha,abajo,izq*/
+  background-color: rgb(107, 255, 38);
+  padding: 5% 0% 0% 0%; /*arriba, derecha,abajo,izq*/
 }
 .infocontainer3 img {
   width: 44.6%;

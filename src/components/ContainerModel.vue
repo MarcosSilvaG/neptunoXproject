@@ -2,12 +2,11 @@
   <div class="infocontainer2">
     <!--Apartado donde sale la informacion "Why should i vaccine?-->
     <div class="container-info">
-      <h2>Why should I vaccine?</h2>
+      <h1>{{ titulo }}</h1>
     </div>
     <div class="container-info">
-      <p class="p3">
-        In order to avoid any doubts about getting the COVID-19<br />vaccine,
-        indentify the following 4 benefits of COVID-19<br />vaccination:
+      <p>
+        {{ descripcion }}
       </p>
     </div>
     <div class="container-info"></div>
@@ -20,7 +19,7 @@ export default {
   name: "ContainerModel",
   props: {
     titulo: String,
-    msg: String,
+    descripcion: String,
   },
 };
 </script>
@@ -54,14 +53,14 @@ p {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  /* background-color: blueviolet;*/
+  background-color: blueviolet;
   padding: 5% 9.4% 5% 9.4%; /*arriba, derecha,abajo,izq*/
 }
 .container-info {
   position: relative;
   width: 100%;
   overflow: hidden;
-  /*background-color: #acc454;*/
+  background-color: #acc454;
   padding: 2% 0%;
 }
 </style>
