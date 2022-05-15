@@ -51,7 +51,7 @@ p {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-color: rgb(107, 255, 38);
+  /*background-color: rgb(107, 255, 38);*/
   padding: 5% 0% 0% 0%; /*arriba, derecha,abajo,izq*/
 }
 .infocontainer3 img {
@@ -66,6 +66,10 @@ p {
   height: 30vw;
   width: 55.4%;
   overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: url("../assets/background/sea2.png");
+  background-size: cover;
+  /*background-color: rgba(255, 0, 0, 0.5);*/
 }
 </style>

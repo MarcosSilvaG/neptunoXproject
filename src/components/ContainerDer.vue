@@ -60,7 +60,7 @@ p {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   align-items: center;
-  background-color: aqua;
+  /*background-color: aqua;*/
 }
 .containerinfo1 {
   position: relative;
@@ -69,7 +69,11 @@ p {
   height: 30vw;
   width: 51%;
   overflow: hidden;
-  background-color: rgb(255, 0, 0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: url("../assets/background/sea3.png");
+  background-size: cover;
+  /*background-color: rgb(255, 0, 0);*/
   padding: 2.5% 8.5%;
 }
 .containerinfo1 .icon1 {
@@ -83,7 +87,7 @@ p {
   width: 49%;
   height: 30vw;
   overflow: hidden;
-  background-color: rgb(111, 0, 255);
+  /*background-color: rgb(111, 0, 255);*/
   transform: translate(0%, 0%);
 }
 .imgcontainer img {
