@@ -1,24 +1,26 @@
 <template>
-  <div class="infocontainer3">
-    <!--Apartado donde sale la informacion "prepare before vaccine"-->
-    <img src="../assets/turtlehunt.jpg" />
-    <div class="container">
-      <h1>{{ titulo }}</h1>
-      <p>
-        {{ descripcion }}
+  <div class="infocontainer2">
+    <!--Apartado donde sale la informacion "Why should i vaccine?-->
+    <div class="container-info">
+      <h2>Why should I vaccine?</h2>
+    </div>
+    <div class="container-info">
+      <p class="p3">
+        In order to avoid any doubts about getting the COVID-19<br />vaccine,
+        indentify the following 4 benefits of COVID-19<br />vaccination:
       </p>
     </div>
-    <!---->
+    <div class="container-info"></div>
   </div>
-  <!--Termina prepare vaccines-->
+  <!--Termina why should i vaccines-->
 </template>
 
 <script>
 export default {
-  name: "ContainerIzq",
+  name: "ContainerModel",
   props: {
     titulo: String,
-    descripcion: String,
+    msg: String,
   },
 };
 </script>
@@ -32,6 +34,7 @@ export default {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(31, 62, 114);
 }
+
 h1 {
   /*Afecta a todos los titulos h1*/
   font-size: 4.5vw;
@@ -47,25 +50,18 @@ p {
   color: rgb(109, 123, 147);
 }
 
-.infocontainer3 {
+.infocontainer2 {
   /*Contenedor que ocupa todo el ancho de pantalla para poner info y a la enfermera*/
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  /*background-color: rgb(107, 255, 38);*/
-  padding: 5% 0% 5% 0%; /*arriba, derecha,abajo,izq*/
+  /* background-color: blueviolet;*/
+  padding: 5% 9.4% 5% 9.4%; /*arriba, derecha,abajo,izq*/
 }
-.infocontainer3 img {
-  width: 44.6%;
-  height: 30vw;
-}
-.infocontainer3 .container {
+.container-info {
   position: relative;
-  align-items: center;
-  padding: 2.5% 10% 2.5% 5%;
-  float: right;
-  height: 30vw;
-  width: 55.4%;
+  width: 100%;
   overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.5);
+  /*background-color: #acc454;*/
+  padding: 2% 0%;
 }
 </style>
