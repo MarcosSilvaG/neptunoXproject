@@ -70,7 +70,7 @@ p {
   width: 51%;
   overflow: hidden;
   background-color: rgb(255, 0, 0);
-  padding: 9.5% 8.5%;
+  padding: 2.5% 8.5%;
 }
 .containerinfo1 .icon1 {
   width: 3%;
