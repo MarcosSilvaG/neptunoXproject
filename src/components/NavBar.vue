@@ -10,7 +10,9 @@
             >
           </li>
           <li class="nav-item">
-            <a href="#infocontainer2" class="nav-link"
+            <a
+              href="https://marcossilvag.github.io/neptunoXproject3D/"
+              class="nav-link"
               ><i class="bx bxs-award nav-icon titulo"></i>Modelo3D</a
             >
           </li>
