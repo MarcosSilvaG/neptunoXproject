@@ -1,13 +1,8 @@
-# neptunoxproject
+# NEPTUNOXPROJECT
 
-## Project setup
+## PROYECT SETUP
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
 ```
 
 ### Lints and fixes files
@@ -15,10 +10,10 @@ npm run serve
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 # Acerca de Neptuno X Project
 
 Es un robot diseñado para recoger basura del mar, como bolsas de plastico y pet, con el fin de limpiar el medio ambiente y salvaguardar a las especies marinas.
