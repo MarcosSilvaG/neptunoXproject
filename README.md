@@ -24,3 +24,6 @@ Es un robot diseñado para recoger basura del mar, como bolsas de plastico y pet
 
 Se tiene como un segundo objetivo poder reciclar todo el plastico que sea extraido y por medio de manufactura aditiva poder generar protesis para animales que hayan sido heridos por culpa de el trafico ilegal de especies marinas.
 ![image](https://user-images.githubusercontent.com/99489937/168501385-625da5ba-f436-4c00-8f5a-797acb802529.png)
+
+## Modelo 3D
+Para ver el modelo 3D acceder al siguiente link: https://marcossilvag.github.io/neptunoXproject3D/
